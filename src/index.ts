@@ -23,8 +23,14 @@
 
 //PascalCase
 
-enum Size {Small = 1, Medium, Large}
+// const enum Size {Small = 1, Medium, Large}
 
-let mySize: Size = Size.Medium;
+// let mySize: Size = Size.Medium;
 
-console.log(mySize);
+// console.log(mySize);
+
+function calculateTax(income: number) {
+    if(income > 50000) {
+        return income * 1.2;
+    }
+}
