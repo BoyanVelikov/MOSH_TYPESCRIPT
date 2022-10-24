@@ -29,8 +29,17 @@
 
 // console.log(mySize);
 
-function calculateTax(income: number) {
-    if(income > 50000) {
-        return income * 1.2;
-    }
-}
+// function calculateTax(income: number, taxYear = 2022): number {
+//     if(taxYear < 2022)
+//         return income * 1.2;
+//     return income * 1.3;
+// }
+
+// console.log(calculateTax(20000));
+
+
+let employee: {
+    readonly id: number,
+    name: string
+} = {id: 1, name: 'Mosh'};
+
