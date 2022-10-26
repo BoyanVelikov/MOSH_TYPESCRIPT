@@ -41,8 +41,9 @@
 let employee: {
     readonly id: number,
     name: string,
-    language: string
-} = {id: 1, name: 'Mosh', language: 'English'};
+    language: string,
+    skill: string
+} = {id: 1, name: 'Mosh', language: 'English', skill: 'driver'};
 
 
 
