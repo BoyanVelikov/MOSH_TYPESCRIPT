@@ -45,5 +45,11 @@ let employee: {
     skill: string
 } = {id: 1, name: 'Mosh', language: 'English', skill: 'driver'};
 
+let manager: {
+    name: string
+} = {
+    name: 'John Adams'
+}
+
 
 
