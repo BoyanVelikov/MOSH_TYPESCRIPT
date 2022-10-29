@@ -46,9 +46,11 @@ let employee: {
 } = {id: 1, name: 'Mosh', language: 'English', skill: 'driver'};
 
 let manager: {
-    name: string
+    name: string,
+    age: number
 } = {
-    name: 'John Adams'
+    name: 'John Adams',
+    age: 25
 }
 
 
