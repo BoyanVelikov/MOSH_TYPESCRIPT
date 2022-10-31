@@ -53,5 +53,12 @@ let manager: {
     age: 25
 }
 
+let customer: {
+    name: string
+} = {
+    name: 'Ben Great'
+}
+
+
 
 
